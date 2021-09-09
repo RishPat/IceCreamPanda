@@ -105,7 +105,7 @@ footer{
     cursor: pointer;
     padding: 5px 0px;
 }
-@media (max-width: 320px){
+@media (max-width: 414px){
     #logo{
         width: 40px;
         height: 50px;
@@ -123,5 +123,18 @@ footer{
         display: inline-block;
         padding: 10px;
         font-size: medium;
+    }
+    footer{
+        bottom: 0;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        color: orangered;
+    }
+    .icons .fa{
+        color: red;
+        margin: 0px 14px;
+        cursor: pointer;
+        padding: 5px 0px;
     }
 }    
